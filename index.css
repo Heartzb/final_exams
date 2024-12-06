@@ -1,0 +1,39 @@
+b{color: aqua;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 250;
+    font-size: 30px;}
+    h1{
+        color: blue;
+        padding-top: 50px;
+        font-size: 30px;
+        font-style: italic;
+    }
+    .nav{
+        display: flex;
+        text-align: left;
+        gap: 3rem;
+        font-size: 30px;
+      text-decoration: none;
+        color: orangered;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: white; 
+        z-index: 1000;}
+    .wrapper{
+    
+        position: relative;
+    }
+    .img{ 
+        float: top;
+        margin: 10px;
+        width: 250px;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    .c{
+        text-align: center;
+        color: white;
+    }
